@@ -11,7 +11,6 @@ public class PlayerMovement3D : MonoBehaviour
 
     private Rigidbody rb;                // Refrence to the Rigidbody component
     private bool isGrounded;               // Is the player on the ground?
-    private bool startFall;
 
     // Start is called before the first frame update
     void Start()
@@ -25,41 +24,38 @@ public class PlayerMovement3D : MonoBehaviour
     void Update()
     {
 
+        float horizontalInput = Input.GetAxis("Horizontal");
+        float verticalInput = Input.GetAxis("Vertical");
+
         // Check if the player is grounded
         isGrounded = Physics2D.OverlapCircle(groundCheckPoint.position, checkRadius, groundLayer);
 
-        
-        if (isGrounded && Input.GetKeyDown("space"))
+        if (Input.GetButtonDown("Jump"))
         {
-            jump();
+            rb.velocity = new Vector3(rb.velocity.x, 7f, rb.velocity.);
         }
 
-        
+
         if (Input.GetKey("w") || Input.GetKey(KeyCode.UpArrow))
         {
-            GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 3);
+            rb.velocity = new Vector3(0, 0, 3);
         }
 
         if (Input.GetKey("s") || Input.GetKey(KeyCode.DownArrow))
         {
-            GetComponent<Rigidbody>().velocity = new Vector3(0, 0, -3);
+            rb.velocity = new Vector3(0, 0, -3);
         }
 
         if (Input.GetKey("a") || Input.GetKey(KeyCode.LeftArrow))
         {
-            GetComponent<Rigidbody>().velocity = new Vector3(-3, 0, 0);
+            rb.velocity = new Vector3(-3, 0, 0);
         }
 
         if (Input.GetKey("d") || Input.GetKey(KeyCode.RightArrow))
         {
-            GetComponent<Rigidbody>().velocity = new Vector3(3, 0, 0);
+            rb.velocity = new Vector3(3, 0, 0);
         }
 
-    }
-
-    private void jump()
-    {
-        GetComponent<Rigidbody>().velocity = new Vector3(0, 7, 0);
     }
 
     private void OnDrawGizmosSelected()
@@ -68,4 +64,6 @@ public class PlayerMovement3D : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(groundCheckPoint.position, checkRadius);
     }
+
+    //https://youtu.be/HmouLR4X47I?si=fqVb4T9DeL5upgrX&t=1025
 }
