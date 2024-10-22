@@ -4,18 +4,34 @@ using UnityEngine;
 
 public class PlayerMovement3D : MonoBehaviour
 {
+
+    public Transform groundCheckPoint;     // A point to check if the player is grounded
+    public float checkRadius = 10f;       // Radius of the overlap circle for ground detection
+    public LayerMask groundLayer;
+
+    private Rigidbody rb;                // Refrence to the Rigidbody component
+    private bool isGrounded;               // Is the player on the ground?
+    private bool startFall;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody>();  // Get the Rigidbody2D component attached to the player
+
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("space"))
+
+        // Check if the player is grounded
+        isGrounded = Physics2D.OverlapCircle(groundCheckPoint.position, checkRadius, groundLayer);
+
+        
+        if (isGrounded && Input.GetKeyDown("space"))
         {
-            GetComponent<Rigidbody>().velocity = new Vector3(0, 7, 0);
+            jump();
         }
 
         
@@ -39,5 +55,17 @@ public class PlayerMovement3D : MonoBehaviour
             GetComponent<Rigidbody>().velocity = new Vector3(3, 0, 0);
         }
 
+    }
+
+    private void jump()
+    {
+        GetComponent<Rigidbody>().velocity = new Vector3(0, 7, 0);
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        // Draw a circle to visualize the ground check point in the editor
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(groundCheckPoint.position, checkRadius);
     }
 }
