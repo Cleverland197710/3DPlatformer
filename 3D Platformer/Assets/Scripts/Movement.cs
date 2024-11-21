@@ -52,7 +52,29 @@ public class Movement : MonoBehaviour
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
             rb.velocity = new Vector3(rb.velocity.x, jumpForce, rb.velocity.z);
+
         }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            UnlocK();
+        }
+
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            LocK();
+        }
+
+    }
+
+    private void UnlocK()
+    {
+        Cursor.lockState = CursorLockMode.None;
+    }
+
+    private void LocK()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     bool IsGrounded()
