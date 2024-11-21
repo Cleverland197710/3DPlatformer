@@ -8,6 +8,9 @@ public class Movement : MonoBehaviour
     public float moveSpeed = 10f;
     public float jumpForce = 10f;
 
+    public float clampCam1;
+    public float clampCam2;
+
     [SerializeField] float mouseSensitivity = 100f;
     float xRotation = 0f;
     [SerializeField] Transform playerCamera; // Assign your camera in the Inspector
@@ -33,7 +36,7 @@ public class Movement : MonoBehaviour
         float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
 
         xRotation -= mouseY;
-        xRotation = Mathf.Clamp(xRotation, -90f, 90f); // Clamp vertiacl rotation
+        xRotation = Mathf.Clamp(xRotation, clampCam1, clampCam2); // Clamp vertiacl rotation
 
         playerCamera.localRotation = Quaternion.Euler(xRotation, 0f, 0f); // Rotate camera up/down
         transform.Rotate(Vector3.up * mouseX); // Rotate player left/right

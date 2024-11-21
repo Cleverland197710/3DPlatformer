@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 44688440}
   - component: {fileID: 44688439}
   - component: {fileID: 44688438}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Crate (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -344,7 +344,7 @@ GameObject:
   - component: {fileID: 184344727}
   - component: {fileID: 184344726}
   - component: {fileID: 184344725}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Crate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -463,7 +463,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 205887483}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 80b16605362f7de489f292ec2608afc3, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -554,7 +554,7 @@ GameObject:
   - component: {fileID: 214995391}
   - component: {fileID: 214995390}
   - component: {fileID: 214995389}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Crate (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -673,7 +673,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 359060981}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 80b16605362f7de489f292ec2608afc3, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -910,35 +910,51 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2022905586605228402, guid: ec1673e860aa1bf43b12c9dc89d27004, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.01499939
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 2022905586605228402, guid: ec1673e860aa1bf43b12c9dc89d27004, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.2467942
+      value: 1.82
       objectReference: {fileID: 0}
     - target: {fileID: 2022905586605228402, guid: ec1673e860aa1bf43b12c9dc89d27004, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.3991776
+      value: -4.11
       objectReference: {fileID: 0}
     - target: {fileID: 2022905586605228402, guid: ec1673e860aa1bf43b12c9dc89d27004, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.99153227
+      value: 0.9813823
       objectReference: {fileID: 0}
     - target: {fileID: 2022905586605228402, guid: ec1673e860aa1bf43b12c9dc89d27004, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.12986095
+      value: 0.19205515
       objectReference: {fileID: 0}
     - target: {fileID: 2022905586605228402, guid: ec1673e860aa1bf43b12c9dc89d27004, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0.0018756831
       objectReference: {fileID: 0}
     - target: {fileID: 2022905586605228402, guid: ec1673e860aa1bf43b12c9dc89d27004, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: 0.0003670686
       objectReference: {fileID: 0}
     - target: {fileID: 2022905586605228402, guid: ec1673e860aa1bf43b12c9dc89d27004, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 35.285
+      value: 22.146
+      objectReference: {fileID: 0}
+    - target: {fileID: 2022905586605228402, guid: ec1673e860aa1bf43b12c9dc89d27004, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -0.219
+      objectReference: {fileID: 0}
+    - target: {fileID: 2724806585232211021, guid: ec1673e860aa1bf43b12c9dc89d27004, type: 3}
+      propertyPath: clampCam1
+      value: 12.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 2724806585232211021, guid: ec1673e860aa1bf43b12c9dc89d27004, type: 3}
+      propertyPath: clampCam2
+      value: 16.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2724806585232211021, guid: ec1673e860aa1bf43b12c9dc89d27004, type: 3}
+      propertyPath: moveSpeed
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 2724806585232211021, guid: ec1673e860aa1bf43b12c9dc89d27004, type: 3}
       propertyPath: groundCheck
@@ -1084,7 +1100,7 @@ GameObject:
   - component: {fileID: 573667843}
   - component: {fileID: 573667842}
   - component: {fileID: 573667841}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1220,7 +1236,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1017794840}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
   m_Name: 
@@ -1230,7 +1246,7 @@ MonoBehaviour:
   m_IgnoreTimeScale: 0
   m_WorldUpOverride: {fileID: 0}
   m_UpdateMethod: 2
-  m_BlendUpdateMethod: 1
+  m_BlendUpdateMethod: 0
   m_DefaultBlend:
     m_Style: 1
     m_Time: 2
@@ -1278,7 +1294,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1046594959}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 80b16605362f7de489f292ec2608afc3, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1383,7 +1399,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1065198818}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 80b16605362f7de489f292ec2608afc3, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1505,7 +1521,7 @@ GameObject:
   - component: {fileID: 1080485081}
   - component: {fileID: 1080485080}
   - component: {fileID: 1080485079}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Crate (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1698,7 +1714,7 @@ GameObject:
   - component: {fileID: 1168876526}
   - component: {fileID: 1168876525}
   - component: {fileID: 1168876524}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Crate (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1803,7 +1819,7 @@ GameObject:
   - component: {fileID: 1195164052}
   - component: {fileID: 1195164051}
   - component: {fileID: 1195164050}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Crate (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1905,7 +1921,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1256997073}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2017,7 +2033,7 @@ GameObject:
   - component: {fileID: 1410309474}
   - component: {fileID: 1410309473}
   - component: {fileID: 1410309472}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Crate (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2270,13 +2286,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1598241282}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.12986095, y: -0, z: -0, w: 0.99153227}
-  m_LocalPosition: {x: 0.28499985, y: 0.852, z: 0.1309967}
+  m_LocalRotation: {x: 0.30765322, y: -0, z: -0, w: 0.95149857}
+  m_LocalPosition: {x: 0.28499985, y: -0.42, z: -1.11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1956286018}
-  m_LocalEulerAnglesHint: {x: 14.923, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 35.836, y: 0, z: 0}
 --- !u!1 &1651503111
 GameObject:
   m_ObjectHideFlags: 0
@@ -2339,7 +2355,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1662526413}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 80b16605362f7de489f292ec2608afc3, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -2652,7 +2668,7 @@ MonoBehaviour:
   m_StreamingVersion: 20170927
   m_Priority: 10
   m_StandbyUpdate: 2
-  m_LookAt: {fileID: 0}
+  m_LookAt: {fileID: 1956286018}
   m_Follow: {fileID: 1598241283}
   m_Lens:
     FieldOfView: 60
@@ -2681,14 +2697,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1880803652}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.09703246, y: 0.73884046, z: -0.10892603, w: -0.65790176}
-  m_LocalPosition: {x: 0.014999837, y: 3.196794, z: -3.3991778}
+  m_LocalRotation: {x: 0.24758326, y: -0.0018517588, z: 0.0004731976, w: 0.9688648}
+  m_LocalPosition: {x: 0.014999837, y: 3.095621, z: -3.924043}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2098486140}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 12.724, y: -0.219, z: 0}
 --- !u!4 &1956286018 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3011080578288882249, guid: ec1673e860aa1bf43b12c9dc89d27004, type: 3}
@@ -2706,7 +2722,7 @@ GameObject:
   - component: {fileID: 1964959250}
   - component: {fileID: 1964959249}
   - component: {fileID: 1964959248}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Crate (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2811,7 +2827,7 @@ GameObject:
   - component: {fileID: 2039755368}
   - component: {fileID: 2039755367}
   - component: {fileID: 2039755366}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2951,8 +2967,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Damping: {x: 0.1, y: 0.5, z: 0.3}
-  ShoulderOffset: {x: -0.27, y: 0.04, z: 0}
-  VerticalArmLength: 0.4
+  ShoulderOffset: {x: 0.33, y: -1.11, z: 0}
+  VerticalArmLength: 0.49
   CameraSide: 1
   CameraDistance: 3.76
   CameraCollisionFilter:
@@ -2974,13 +2990,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4044717213e31446939f7bd49c896ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TrackedObjectOffset: {x: 0, y: 0, z: 0}
+  m_TrackedObjectOffset: {x: 0, y: 0.47, z: 0}
   m_LookaheadTime: 0
   m_LookaheadSmoothing: 0
   m_LookaheadIgnoreY: 0
-  m_HorizontalDamping: 0.5
+  m_HorizontalDamping: 1
   m_VerticalDamping: 0.5
-  m_ScreenX: 0.5
+  m_ScreenX: 0.25
   m_ScreenY: 0.5
   m_DeadZoneWidth: 0
   m_DeadZoneHeight: 0
