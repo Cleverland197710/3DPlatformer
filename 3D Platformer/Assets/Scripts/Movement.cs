@@ -17,7 +17,6 @@ public class Movement : MonoBehaviour
 
     [SerializeField] Transform groundCheck;
     [SerializeField] LayerMask groundLayer;
-    public
 
 
     // Start is called before the first frame update
