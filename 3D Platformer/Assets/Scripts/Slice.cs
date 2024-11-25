@@ -15,11 +15,7 @@ public class Slice : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            Attack();
 
-        }
     }
 
     private void OnCollisionEnter(Collision collision)

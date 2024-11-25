@@ -9,7 +9,7 @@ public class PlayerLife : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Dangerous"))
         {
-            Die();
+           // Die();
         }
     }
 
