@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6611338895551651123}
   - component: {fileID: 7779051671139489974}
   m_Layer: 0
-  m_Name: '[PH] Enemy'
+  m_Name: '[PH] Enemy Hitbox'
   m_TagString: Kill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
