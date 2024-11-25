@@ -358,6 +358,7 @@
 "Assets/Scripts/Movement.cs"
 "Assets/Scripts/PlayerLife.cs"
 "Assets/Scripts/PlayerMovement3D.cs"
+"Assets/Scripts/Slice.cs"
 "Assets/Scripts/WaypointFollower.cs"
 -langversion:9.0
 /deterministic
