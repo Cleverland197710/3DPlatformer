@@ -17,6 +17,9 @@ public class Movement : MonoBehaviour
 
     [SerializeField] Transform groundCheck;
     [SerializeField] LayerMask groundLayer;
+    [SerializeField] int numberOfJumps = 2;
+    [SerializeField] int maxNumberOfjumps = 2;
+
 
 
     // Start is called before the first frame update
@@ -48,10 +51,16 @@ public class Movement : MonoBehaviour
         Vector3 moveDirection = transform.right * horizontalInput + transform.forward * verticalInput;
         rb.velocity = new Vector3(moveDirection.x * moveSpeed, rb.velocity.y, moveDirection.z * moveSpeed);
 
-        if (Input.GetButtonDown("Jump") && IsGrounded())
+        if (Input.GetButtonDown("Jump") && maxNumberOfjumps >= numberOfJumps)
         {
             rb.velocity = new Vector3(rb.velocity.x, jumpForce, rb.velocity.z);
+            numberOfJumps++;
 
+        }
+
+        if (IsGrounded())
+        {
+            numberOfJumps = 0;
         }
 
         if (Input.GetKeyDown(KeyCode.Escape))
