@@ -54,6 +54,12 @@ public class Movement : MonoBehaviour
         Vector3 moveDirection = transform.right * horizontalInput + transform.forward * verticalInput;
         rb.velocity = new Vector3(moveDirection.x * moveSpeed, rb.velocity.y, moveDirection.z * moveSpeed);
 
+        /*if (Input.GetKeyDown("q"))
+        {
+            Kill();
+
+        }*/
+
         if (Input.GetButtonDown("Jump") && maxNumberOfjumps >= numberOfJumps)
         {
             rb.velocity = new Vector3(rb.velocity.x, jumpForce, rb.velocity.z);
@@ -92,4 +98,12 @@ public class Movement : MonoBehaviour
     {
         return Physics.CheckSphere(groundCheck.position, .1f, groundLayer);
     }
+
+    /*bool Kill()
+    {
+        if (collision.gameObject.CompareTag("Dangerous"))
+        {
+            Destroy(parent.gameObject)
+        }
+    }*/
 }
