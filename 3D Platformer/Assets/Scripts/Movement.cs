@@ -20,11 +20,14 @@ public class Movement : MonoBehaviour
     [SerializeField] int numberOfJumps = 2;
     [SerializeField] int maxNumberOfjumps = 2;
 
+    Animator myAnim; //Slide 19
+
 
 
     // Start is called before the first frame update
     void Start()
     {
+        myAnim = GetComponentInChildren<Animator>();
         rb = GetComponent<Rigidbody>();
         Cursor.lockState = CursorLockMode.Locked; // Lock cursor in place
         
