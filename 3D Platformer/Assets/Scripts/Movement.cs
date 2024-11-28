@@ -17,7 +17,7 @@ public class Movement : MonoBehaviour
 
     [SerializeField] Transform groundCheck;
     [SerializeField] LayerMask groundLayer;
-    [SerializeField] int numberOfJumps = 2;
+    [SerializeField] int numberOfJumps = 1;
     [SerializeField] int maxNumberOfjumps = 2;
 
     Animator myAnim; //Slide 19
@@ -36,6 +36,7 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       
         // Handle mouse look
         float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
@@ -53,7 +54,23 @@ public class Movement : MonoBehaviour
         // Move in the direction the player is facing
         Vector3 moveDirection = transform.right * horizontalInput + transform.forward * verticalInput;
         rb.velocity = new Vector3(moveDirection.x * moveSpeed, rb.velocity.y, moveDirection.z * moveSpeed);
+        
+        myAnim.SetFloat("speed", moveDirection.magnitude);
 
+        if (Input.GetKey(KeyCode.D) | Input.GetKey(KeyCode.S) | Input.GetKey(KeyCode.A) | Input.GetKey(KeyCode.W) && IsGrounded())
+        {
+            myAnim.SetTrigger("Forward");
+        }
+
+        /*if (Input.GetKey(KeyCode.S))
+        {
+            myAnim.SetTrigger("Backward");
+        }*/
+
+        if (IsGrounded())
+        {
+            myAnim.SetTrigger("still");
+        }
         /*if (Input.GetKeyDown("q"))
         {
             Kill();
@@ -62,26 +79,37 @@ public class Movement : MonoBehaviour
 
         if (Input.GetButtonDown("Jump") && maxNumberOfjumps >= numberOfJumps)
         {
-            rb.velocity = new Vector3(rb.velocity.x, jumpForce, rb.velocity.z);
-            numberOfJumps++;
-
+            //rb.velocity = new Vector3(rb.velocity.x, jumpForce, rb.velocity.z);
+            Debug.Log(numberOfJumps);
+            //numberOfJumps++;
+            Debug.Log(numberOfJumps);
+            jump();
         }
 
-        if (IsGrounded())
-        {
-            numberOfJumps = 0;
-        }
+        
 
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
+
+            if (IsGrounded())
+            {
+                numberOfJumps = 0;
+            }
+
+       if (Input.GetKeyDown(KeyCode.Escape))
+       {
             UnlocK();
-        }
+       }
 
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             LocK();
         }
+        Debug.Log(numberOfJumps);
+    }
 
+    void jump()
+    {
+        rb.velocity = new Vector3(rb.velocity.x, jumpForce, rb.velocity.z);
+        numberOfJumps += 1;
     }
 
     private void UnlocK()
@@ -99,6 +127,15 @@ public class Movement : MonoBehaviour
         return Physics.CheckSphere(groundCheck.position, .1f, groundLayer);
     }
 
+    private void numJumpReset()
+    {
+        numberOfJumps = 0;
+    }
+
+        
+}
+
+
     /*bool Kill()
     {
         if (collision.gameObject.CompareTag("Dangerous"))
@@ -106,4 +143,3 @@ public class Movement : MonoBehaviour
             Destroy(parent.gameObject)
         }
     }*/
-}
