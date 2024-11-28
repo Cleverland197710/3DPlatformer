@@ -71,11 +71,21 @@ public class Movement : MonoBehaviour
         {
             myAnim.SetTrigger("still");
         }
+
+       //myAnim.SetBool("isOnGround", isOnGround);
+
+
+
+        /*if (!IsGrounded())
+        {
+            myAnim.SetBool("Air");
+        }*/
+
         /*if (Input.GetKeyDown("q"))
         {
             Kill();
 
-        }*/
+        }
 
         if (Input.GetButtonDown("Jump") && maxNumberOfjumps >= numberOfJumps)
         {
@@ -84,12 +94,17 @@ public class Movement : MonoBehaviour
             //numberOfJumps++;
             Debug.Log(numberOfJumps);
             jump();
+        }*/
+
+        if (Input.GetButtonDown("Jump") && IsGrounded())
+        {
+            rb.velocity = new Vector3(rb.velocity.x, jumpForce, rb.velocity.z);
         }
 
-        
 
 
-            if (IsGrounded())
+
+        if (IsGrounded())
             {
                 numberOfJumps = 0;
             }
@@ -109,7 +124,7 @@ public class Movement : MonoBehaviour
     void jump()
     {
         rb.velocity = new Vector3(rb.velocity.x, jumpForce, rb.velocity.z);
-        numberOfJumps += 1;
+        myAnim.SetTrigger("Air");
     }
 
     private void UnlocK()
