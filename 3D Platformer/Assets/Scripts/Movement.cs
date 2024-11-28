@@ -72,14 +72,14 @@ public class Movement : MonoBehaviour
             myAnim.SetTrigger("still");
         }
 
-       //myAnim.SetBool("isOnGround", isOnGround);
+        myAnim.SetBool("IsGrounded", IsGrounded());
 
 
 
-        /*if (!IsGrounded())
+        if (!IsGrounded())
         {
-            myAnim.SetBool("Air");
-        }*/
+            myAnim.SetTrigger("Air");
+        }
 
         /*if (Input.GetKeyDown("q"))
         {
