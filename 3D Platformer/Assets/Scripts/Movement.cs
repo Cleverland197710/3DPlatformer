@@ -6,7 +6,7 @@ public class Movement : MonoBehaviour
 {
     Rigidbody rb;
     public float moveSpeed = 10f;
-    public float jumpForce = 10f;
+    public float jumpForce = 5f;
 
     public float clampCam1;
     public float clampCam2;
@@ -17,8 +17,8 @@ public class Movement : MonoBehaviour
 
     [SerializeField] Transform groundCheck;
     [SerializeField] LayerMask groundLayer;
-    [SerializeField] int numberOfJumps = 1;
-    [SerializeField] int maxNumberOfjumps = 2;
+    [SerializeField] int doubleJumps = 1;
+    [SerializeField] int maxNumberOfDoublejumps = 2;
 
     Animator myAnim; //Slide 19
 
@@ -76,7 +76,7 @@ public class Movement : MonoBehaviour
 
 
 
-        if (!IsGrounded())
+        if (Input.GetButtonDown("Jump"))
         {
             myAnim.SetTrigger("Air");
         }
@@ -101,13 +101,19 @@ public class Movement : MonoBehaviour
             rb.velocity = new Vector3(rb.velocity.x, jumpForce, rb.velocity.z);
         }
 
+        if (Input.GetButtonDown("Jump") && !IsGrounded() && maxNumberOfDoublejumps > doubleJumps)
+        {
+            rb.velocity = new Vector3(rb.velocity.x, (jumpForce * 2), rb.velocity.z);
+            doubleJumps++;
+        }
+
 
 
 
         if (IsGrounded())
-            {
-                numberOfJumps = 0;
-            }
+        {
+            doubleJumps = 1;
+        }
 
        if (Input.GetKeyDown(KeyCode.Escape))
        {
@@ -118,7 +124,6 @@ public class Movement : MonoBehaviour
         {
             LocK();
         }
-        Debug.Log(numberOfJumps);
     }
 
     void jump()
@@ -140,11 +145,6 @@ public class Movement : MonoBehaviour
     bool IsGrounded()
     {
         return Physics.CheckSphere(groundCheck.position, .1f, groundLayer);
-    }
-
-    private void numJumpReset()
-    {
-        numberOfJumps = 0;
     }
 
         
