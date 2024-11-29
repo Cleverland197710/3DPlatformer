@@ -9,7 +9,6 @@ public class Ctrl : MonoBehaviour
     public GameObject particle1;
     public GameObject particle2;
 
-    private Vector2 mousePos;
 
     void Start()
     {
@@ -23,8 +22,20 @@ public class Ctrl : MonoBehaviour
         {
             particle1.SetActive(true);
             particle2.SetActive(true);
+
+            StartCoroutine(AttackCoolDown());
         }
+
+       
 
       
     }
+
+    IEnumerator AttackCoolDown()
+    {
+        yield return new WaitForSeconds(2);
+        particle1.SetActive(false);
+        particle2.SetActive(false);
+    }
+
 }
