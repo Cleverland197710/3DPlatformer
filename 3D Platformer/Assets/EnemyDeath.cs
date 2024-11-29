@@ -6,7 +6,16 @@ public class EnemyDeath : MonoBehaviour
 {
     private Collision currentCollision;
 
-    void Update()
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Kill")
+        {
+            Destroy(gameObject);
+            Debug.Log("Has Collided");
+        }
+    }
+    
+    /*void Update()
     {
         // Check for mouse click and current collision
         if (currentCollision != null && Input.GetMouseButtonDown(0))
@@ -44,5 +53,5 @@ public class EnemyDeath : MonoBehaviour
             Debug.Log("Collision with Kill object ended: " + collision.gameObject.name);
             currentCollision = null;
         }
-    }
+    }*/
 }
