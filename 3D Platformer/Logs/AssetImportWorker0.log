@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.35f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/ZPeart2024/Documents/GitHub/3DPlatformer/3DPlatformer/3D Platformer
+C:/Users/zpeart2024/Documents/GitHub/3DPlatformer/3D Platformer
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55129
-Successfully changed project path to: C:/Users/ZPeart2024/Documents/GitHub/3DPlatformer/3DPlatformer/3D Platformer
-C:/Users/ZPeart2024/Documents/GitHub/3DPlatformer/3DPlatformer/3D Platformer
+53181
+Successfully changed project path to: C:/Users/zpeart2024/Documents/GitHub/3DPlatformer/3D Platformer
+C:/Users/zpeart2024/Documents/GitHub/3DPlatformer/3D Platformer
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,28 +49,28 @@ C:/Users/ZPeart2024/Documents/GitHub/3DPlatformer/3DPlatformer/3D Platformer
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [15028] Host "[IP] 192.168.103.38 [Port] 0 [Flags] 2 [Guid] 624095636 [EditorId] 624095636 [Version] 1048832 [Id] WindowsEditor(7,122-12) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13084] Host "[IP] 192.168.103.41 [Port] 0 [Flags] 2 [Guid] 2249497743 [EditorId] 2249497743 [Version] 1048832 [Id] WindowsEditor(7,122-06) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [15028] Host "[IP] 192.168.103.38 [Port] 0 [Flags] 2 [Guid] 624095636 [EditorId] 624095636 [Version] 1048832 [Id] WindowsEditor(7,122-12) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13084] Host "[IP] 192.168.103.41 [Port] 0 [Flags] 2 [Guid] 2249497743 [EditorId] 2249497743 [Version] 1048832 [Id] WindowsEditor(7,122-06) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 27.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 22.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.35f1 (011206c7a712)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.35f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/ZPeart2024/Documents/GitHub/3DPlatformer/3DPlatformer/3D Platformer/Assets
+[Subsystems] Discovering subsystems at path C:/Users/zpeart2024/Documents/GitHub/3DPlatformer/3D Platformer/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
     Vendor:   NVIDIA
-    VRAM:     12143 MB
-    Driver:   30.0.14.7212
+    VRAM:     12115 MB
+    Driver:   32.0.15.6094
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.35f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.35f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.35f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56952
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.35f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -78,47 +78,47 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.35f1/
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.35f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.35f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.35f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.020553 seconds.
-- Loaded All Assemblies, in  0.486 seconds
+Registered in 0.017964 seconds.
+- Loaded All Assemblies, in  0.417 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1020 ms
+Android Extension - Scanning For ADB Devices 3717 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.413 seconds
-Domain Reload Profiling: 1898ms
-	BeginReloadAssembly (185ms)
+- Finished resetting the current domain, in  4.053 seconds
+Domain Reload Profiling: 4469ms
+	BeginReloadAssembly (150ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (75ms)
-	LoadAllAssembliesAndSetupDomain (172ms)
-		LoadAssemblies (187ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (150ms)
+		LoadAssemblies (152ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (167ms)
-			TypeCache.Refresh (166ms)
-				TypeCache.ScanAssembly (150ms)
+		AnalyzeDomain (143ms)
+			TypeCache.Refresh (141ms)
+				TypeCache.ScanAssembly (128ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (1414ms)
+	FinalizeReload (4053ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1361ms)
+		SetupLoadedEditorAssemblies (4002ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1171ms)
+			InitializePlatformSupportModulesInManaged (3853ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (129ms)
-			ProcessInitializeOnLoadMethodAttributes (54ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (104ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -126,66 +126,8 @@ Domain Reload Profiling: 1898ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file data-000001ABB4263B70 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF999D020 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF9CD7040 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF9CD7040 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF7FB4C70 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF9C17840 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF9CD7040 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF882AD00 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF8299020 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF9CEEE50 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABFA017050 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABFA0922A0 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF82DA830 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF82DA830 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF823A230 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF82DA830 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF9C17840 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABFA069E60 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF95A7020 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF95A7020 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF95A7020 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF9629640 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF9629640 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF802F4D0 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF831E030 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF8356A40 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF80986F0 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF8356A40 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF964F010 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.832 seconds
-Refreshing native plugins compatible for Editor in 10.43 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.980 seconds
+Refreshing native plugins compatible for Editor in 9.37 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
@@ -196,47 +138,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.660 seconds
-Domain Reload Profiling: 1489ms
-	BeginReloadAssembly (179ms)
+- Finished resetting the current domain, in  0.659 seconds
+Domain Reload Profiling: 1636ms
+	BeginReloadAssembly (180ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (562ms)
-		LoadAssemblies (483ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (708ms)
+		LoadAssemblies (558ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (198ms)
-			TypeCache.Refresh (174ms)
-				TypeCache.ScanAssembly (154ms)
-			ScanForSourceGeneratedMonoScriptInfo (18ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (660ms)
+		AnalyzeDomain (265ms)
+			TypeCache.Refresh (246ms)
+				TypeCache.ScanAssembly (228ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (659ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (495ms)
+		SetupLoadedEditorAssemblies (494ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (37ms)
+			InitializePlatformSupportModulesInManaged (34ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (58ms)
-			ProcessInitializeOnLoadAttributes (371ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (364ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
-Refreshing native plugins compatible for Editor in 15.00 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.39 seconds
+Refreshing native plugins compatible for Editor in 18.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3440 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 58 unused Assets / (1.9 MB). Loaded Objects now: 3891.
-Memory consumption went from 152.1 MB to 150.3 MB.
-Total: 5.440500 ms (FindLiveObjects: 0.681600 ms CreateObjectMapping: 0.323400 ms MarkObjects: 3.925100 ms  DeleteObjects: 0.509400 ms)
+Memory consumption went from 152.7 MB to 150.8 MB.
+Total: 5.023300 ms (FindLiveObjects: 0.412800 ms CreateObjectMapping: 0.244500 ms MarkObjects: 3.805800 ms  DeleteObjects: 0.559100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -254,372 +196,84 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 606747.280205 seconds.
-  path: Assets/3D Assets
-  artifactKey: Guid(2429984edabb4f049b8c0d2c383e2ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets using Guid(2429984edabb4f049b8c0d2c383e2ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '0158f3c48d1fa9da2dc41315100248de') in 0.003363 seconds
+  Time since last request: 1792852.846331 seconds.
+  path: Assets/Untitled.jpg
+  artifactKey: Guid(2f55378b87a46e6409cb848f1ae66230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Untitled.jpg using Guid(2f55378b87a46e6409cb848f1ae66230) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7c463173bdfaa9a5f5e426a18e067933') in 0.093176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PlayButton.png
+  artifactKey: Guid(5abf9943687a0f742aa617fb3fa6d5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayButton.png using Guid(5abf9943687a0f742aa617fb3fa6d5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd7c5351f7293646c2674ba377f724806') in 0.014250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.593624 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(a79846c21cf52e3458037c64f4ddd778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(a79846c21cf52e3458037c64f4ddd778) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '63c689a444aa134432ff02927bedfb0b') in 0.000584 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/3D Assets/Crate.fbx
-  artifactKey: Guid(6b5f657ee2d29904eb08b1da5e04e9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets/Crate.fbx using Guid(6b5f657ee2d29904eb08b1da5e04e9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '95bab3b7eff27c1391a6a42adcd90393') in 0.126629 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/3D Assets/Character/Character@Run.fbx
-  artifactKey: Guid(b047dde8f9001c5408034c6f3b91f324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets/Character/Character@Run.fbx using Guid(b047dde8f9001c5408034c6f3b91f324) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e05fa23151a628154a74e54c7391fbe9') in 0.031206 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 77
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/3D Assets/Cart.fbx
-  artifactKey: Guid(3fd188d665e9c1840bcf03d5f6b6606b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets/Cart.fbx using Guid(3fd188d665e9c1840bcf03d5f6b6606b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'fc3b1772f111764d61bc5a5a1a1dc708') in 0.036314 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/3D Assets/Character
-  artifactKey: Guid(f344326679fc81046885faf904319aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets/Character using Guid(f344326679fc81046885faf904319aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '1826794276b2ef38004342b756dd31bb') in 0.000368 seconds
+  Time since last request: 132.913812 seconds.
+  path: Assets/Scripts/PlayerMovement3D.cs
+  artifactKey: Guid(5ec8d0feba1054043a55d4f3c31a8f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerMovement3D.cs using Guid(5ec8d0feba1054043a55d4f3c31a8f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4a0aa593f19b2b7acd1b61bc348c48a0') in 0.000430 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/3D Assets/Character/Skin.mat
-  artifactKey: Guid(5e4f393ea2a94ea4d9789c84b6f585ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets/Character/Skin.mat using Guid(5e4f393ea2a94ea4d9789c84b6f585ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'fa3a2694784265f5fc817487c77b67a3') in 0.009474 seconds
+  Time since last request: 36.006649 seconds.
+  path: Assets/Scripts/WaypointFollower.cs
+  artifactKey: Guid(5f070e62bb5b75d41a6bc7bc9caf6322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WaypointFollower.cs using Guid(5f070e62bb5b75d41a6bc7bc9caf6322) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '158916bdf47597326ebdd3c87fc1bda8') in 0.000432 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 39.746318 seconds.
-  path: Assets/Prefabs/Crate.prefab
-  artifactKey: Guid(78b6089fb1a03a0449914aee3e499a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Crate.prefab using Guid(78b6089fb1a03a0449914aee3e499a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a9801640441a7275cf5346a8842394c0') in 0.013478 seconds
+  Time since last request: 29.257409 seconds.
+  path: Assets/Activation.cs
+  artifactKey: Guid(6f18665a0e649c241a7bdfd7b37dd330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Activation.cs using Guid(6f18665a0e649c241a7bdfd7b37dd330) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b62ba261fcdcae66e874c9fbb71fac69') in 0.000440 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Prefabs/Wall.prefab
-  artifactKey: Guid(112e06c6dfda2ca4a98311c23f516fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Wall.prefab using Guid(112e06c6dfda2ca4a98311c23f516fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a4f08c8daed737a382ac4478a86f3b4f') in 0.037302 seconds
+  Time since last request: 1.226554 seconds.
+  path: Assets/CamPlzWork.cs
+  artifactKey: Guid(cf58afbbe461d2a468d504d91e830146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CamPlzWork.cs using Guid(cf58afbbe461d2a468d504d91e830146) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c5ac5693ce6c20f94b1e5051c4d280ea') in 0.000416 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 4.104943 seconds.
-  path: Assets/Prefabs/[PH]/[PH] Wall.prefab
-  artifactKey: Guid(7e5164d9747b77a46b0a751427f70de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/[PH]/[PH] Wall.prefab using Guid(7e5164d9747b77a46b0a751427f70de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '27d8eae8b3092a26edafcb8232180220') in 0.010500 seconds
+  Time since last request: 2.405926 seconds.
+  path: Assets/Ctrl.cs
+  artifactKey: Guid(45c1b50ead584884c9b6c31f93f48882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ctrl.cs using Guid(45c1b50ead584884c9b6c31f93f48882) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fe20d528afe6537093d510818acb668f') in 0.000445 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file data-000001ABFA934010 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF95A7020 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AA23D4F040 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF7DD35D0 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABFA9388A0 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF83B6840 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AA23F168C0 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF7EC9640 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AA23D4F040 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF891C010 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABFB2B8010 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF8A02E20 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABFAE19010 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF9823010 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABFAE19010 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF7E8B020 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF7FB37E0 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF83B6840 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABFAE19010 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF7EC9640 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF7ED0050 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AA2376F010 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF7F5EFF0 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABFAE31820 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AA240FFE50 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF96DCA40 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABFAE31820 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABFAE31820 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AA23B65A90 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.466 seconds
-Refreshing native plugins compatible for Editor in 7.98 ms, found 3 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.700 seconds
-Domain Reload Profiling: 2163ms
-	BeginReloadAssembly (160ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (242ms)
-		LoadAssemblies (330ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (11ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1700ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (458ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (36ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (64ms)
-			ProcessInitializeOnLoadAttributes (328ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 9.96 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3384 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (1.8 MB). Loaded Objects now: 3951.
-Memory consumption went from 140.7 MB to 138.9 MB.
-Total: 3.091300 ms (FindLiveObjects: 0.271400 ms CreateObjectMapping: 0.173600 ms MarkObjects: 2.329900 ms  DeleteObjects: 0.315600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file data-000001ABF841C390 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF948A020 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AC6312F880 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF9CD7040 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABB3C54490 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABB3C54490 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF7F3D020 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF9D81020 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AC6312F880 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AC00F7F140 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABFAFBD010 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF8A02E20 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF95A7020 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABFB2B8010 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABFAE19010 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF842C8A0 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABB3C54490 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABFAB1E010 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AA24732010 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AA2376F010 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AC00FA2F50 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AA2376F010 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF842C8A0 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AA238155E0 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABFB2B8010 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABF96DCA40 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AA238155E0 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AA238155E0 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ABFB2B8010 doesn't match image C:\Users\ZPeart2024\Documents\GitHub\3DPlatformer\3DPlatformer\3D Platformer\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.452 seconds
-Refreshing native plugins compatible for Editor in 8.68 ms, found 3 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.629 seconds
-Domain Reload Profiling: 2079ms
-	BeginReloadAssembly (159ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (230ms)
-		LoadAssemblies (317ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (1630ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (467ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (38ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (336ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 9.33 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3385 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (1.8 MB). Loaded Objects now: 3966.
-Memory consumption went from 141.0 MB to 139.2 MB.
-Total: 3.262700 ms (FindLiveObjects: 0.322200 ms CreateObjectMapping: 0.215100 ms MarkObjects: 2.422500 ms  DeleteObjects: 0.302000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 394.440565 seconds.
-  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR Fire Breath.prefab
-  artifactKey: Guid(c4ed38c72957f2241ad144a1614956d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR Fire Breath.prefab using Guid(c4ed38c72957f2241ad144a1614956d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '5ef5d4eccf76b4107c8f16282192819a') in 0.089731 seconds
+  Time since last request: 3.998272 seconds.
+  path: Assets/SlashVfx.cs
+  artifactKey: Guid(de0a34a16fb276341b910207400e6438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SlashVfx.cs using Guid(de0a34a16fb276341b910207400e6438) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '92370c67ea47aef800d6b3d158604afe') in 0.000480 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 26
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Number of asset objects unloaded after import = 0
